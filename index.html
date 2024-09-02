@@ -25,6 +25,14 @@
     </section>
     <section id="questao3">
       <h2>Questão 3 - Valor da Variável SOMA</h2>
+      <p>
+        Observe o trecho de código abaixo:
+        <br />
+        int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1;
+        SOMA = SOMA + K; } imprimir(SOMA);
+        <br />
+        Ao final do processamento, qual será o valor da variável SOMA?
+      </p>
       <button onclick="calcularSoma()">Calcular</button>
       <p id="somaResultado"></p>
     </section>
@@ -42,12 +50,22 @@
     </section>
     <section id="questao5">
       <h2>Questão 5 - Interruptores e Lâmpadas</h2>
-      <p>Descreva a solução para este problema conforme explicado no código.</p>
+      <p>
+        Você está em uma sala com três interruptores, cada um conectado a uma
+        lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em
+        que está, mas pode ligar e desligar os interruptores quantas vezes
+        quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+        Como você faria para descobrir, usando apenas duas idas até uma das
+        salas das lâmpadas, qual interruptor controla cada lâmpada?
+      </p>
+      <button onclick="mostrarSolucao()">Ver Solução</button>
+      <p id="solucaoCinco"></p>
     </section>
 
     <script src="scripts/questao1.js"></script>
     <script src="scripts/questao2.js"></script>
     <script src="scripts/questao3.js"></script>
     <script src="scripts/questao4.js"></script>
+    <script src="scripts/questao5.js"></script>
   </body>
 </html>
