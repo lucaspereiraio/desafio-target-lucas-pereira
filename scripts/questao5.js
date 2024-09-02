@@ -1,11 +1,11 @@
 function mostrarSolucao() {
   const solucao =
-    "1- Ligue o primeiro interruptor e deixe-o ligado por alguns minutos." +
-    " 2- Após alguns minutos, desligue o primeiro interruptor e ligue o segundo." +
-    " 3- Imediatamente, vá para a sala das lâmpadas." +
+    "1- Eu ligo o primeiro interruptor e deixo ele ligado por uns minutos." +
+    " 2- Depois, eu desligo o primeiro interruptor e ligo o segundo." +
+    " 3- Imediatamente depois, vou até a sala das lâmpadas." +
     " 4- A lâmpada que está acesa é controlada pelo segundo interruptor." +
-    " 5- Toque nas outras duas lâmpadas: a que estiver quente é controlada pelo primeiro interruptor (que foi ligado anteriormente e depois desligado)." +
-    " 6- A lâmpada que estiver fria e apagada é controlada pelo terceiro interruptor.";
+    " 5- Eu toco nas outras lâmpadas: a que estiver quente é do primeiro interruptor (o que eu desliguei depois de usar)." +
+    " 6- A lâmpada que estiver fria e apagada é do terceiro interruptor.";
 
   document.getElementById("solucaoCinco").textContent = solucao;
 }
